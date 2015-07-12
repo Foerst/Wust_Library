@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="100.0"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="#ff7204" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="#ffffff"
+            android:textSize="20.0sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/showMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/right_show_menu" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg2"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="0,1" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/wust_search_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/wustlib_icon"
+                        android:clickable="true" />
+
+                    <TextView
+                        android:id="@+id/search_paper_txt"
+                        android:layout_margin="10dp"
+                        android:background="#e2FF4444"
+                        android:gravity="center"
+                        android:height="190dp"
+                        android:text="论文搜索"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/database_search_txt"
+                        android:layout_margin="10dp"
+                        android:background="#e299CC00"
+                        android:gravity="center"
+                        android:height="190dp"
+                        android:text="数据库搜索"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/dblp_search_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="190dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/cdblp_icon"
+                        android:clickable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/mylib_txt"
+                        android:layout_margin="10dp"
+                        android:layout_span="2"
+                        android:background="#e2FFBB33"
+                        android:gravity="center"
+                        android:height="120dp"
+                        android:text="我的图书馆"
+                        android:textColor="#FFF"
+                        android:textSize="20sp" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

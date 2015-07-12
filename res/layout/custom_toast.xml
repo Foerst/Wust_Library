@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff000000" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="115.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="宋体"
+        android:text="请检查网络连接"
+        android:textColor="#ffffffff"
+        android:textSize="16.0sp" />
+
+</RelativeLayout>

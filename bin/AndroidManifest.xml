@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chen.library"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="i搜"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.chen.library.MainPageActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.chen.library.SearchBookActivity" >
+        </activity>
+        <activity android:name="com.chen.library.DetailPageActivity" >
+        </activity>
+        <activity android:name="com.chen.library.DescribePageActivity" >
+        </activity>
+        <activity android:name="com.chen.library.NewsActivity" >
+        </activity>
+        <activity android:name="com.chen.library.NewsItemDetailActivity" >
+        </activity>
+        <activity android:name="com.chen.library.MoreActivity" >
+        </activity>
+        <activity android:name="com.chen.library.LoginActivity" >
+        </activity>
+        <activity android:name="com.chen.library.EAuthorSearchActivity" >
+        </activity>
+        <activity android:name="com.chen.library.ShowCoAuthorsPicActivity" >
+        </activity>
+        <activity android:name="com.chen.library.CDblpSearchActivity" >
+        </activity>
+        <activity android:name="com.chen.library.MyLibraryActivity" >
+        </activity>
+        <activity android:name="com.chen.library.MyInfomationActivity" >
+        </activity>
+        <activity android:name="com.chen.library.BorrowbooksHistoryActivity" >
+        </activity>
+        <activity android:name="com.chen.library.CurrentBorrowActivity" >
+        </activity>
+        <activity android:name="com.chen.library.SearchPaperActivity" >
+        </activity>
+        <activity android:name="com.chen.library.ViewAcademicPaperContentsActivity" >
+        </activity>
+        <activity android:name="com.chen.library.AcademicPaperDetail" >
+        </activity>
+    </application>
+
+</manifest>

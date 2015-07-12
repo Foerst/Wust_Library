@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Library</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cancel">取消</string>
+    <string name="login">登陆</string>
+
+    <string-array name="according">
+        <item>题名</item>
+        <item>作者</item>
+        <item>主题词</item>
+        <item>ISBN</item>
+        <item>订购号</item>
+        <item>分类号</item>
+        <item>索书号</item>
+        <item>出版社</item>
+        <item>丛书名</item>
+        <item>题名拼音</item>
+        <item>责任者拼音</item>
+    </string-array>
+    
+    
+    <string-array name="mylibinfo">
+        <item></item>
+        <item>姓名：</item>
+        <item>证件号：</item>
+        <item>条码号：</item>
+        <item>失效日期：</item>
+        <item>办证日期：</item>
+        <item>生效日期：</item>
+        <item>最大可借图书：</item>
+        <item>最大可预约图书：</item>
+        <item>最大可委托图书：</item>
+        <item>读者类型：</item>
+        <item>借阅等级：</item>
+        <item>累计借书：</item>
+        <item>违章次数：</item>
+        <item>欠款金额：</item>
+        <item>系别：</item>
+        <item>Email：</item>
+        <item>身份证号：</item>
+        <item>工作单位：</item>
+        <item>职业/职称：</item>
+        <item>职位：</item>
+        <item>性别：</item>
+        <item>住址：</item>
+        <item>邮编：</item>
+        <item>电话：</item>
+        <item>手机：</item>
+        <item>出生日期：</item>
+        <item>文化程度：</item>
+        <item>押金：</item>
+        <item>手续费：</item>
+    </string-array>
+
+</resources>
